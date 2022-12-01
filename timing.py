@@ -6,14 +6,15 @@ def test():
     list(range(100))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     NUM_REPS = 1000000
 
     import timeit
-    print(timeit.timeit('test()', number=NUM_REPS,
-          setup='from __main__ import test'))
+
+    print(timeit.timeit("test()", number=NUM_REPS, setup="from __main__ import test"))
 
     import time
+
     start = time.time()
     for i in range(0, NUM_REPS):
         test()
