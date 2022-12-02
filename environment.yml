@@ -1,4 +1,4 @@
-name: python_playground
+name: py-play
 channels:
   - conda-forge
   - defaults
