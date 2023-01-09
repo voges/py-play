@@ -20,3 +20,4 @@ repos:
     rev: v2.15.7
     hooks:
     -   id: pylint
+        additional_dependencies: ['matplotlib']
