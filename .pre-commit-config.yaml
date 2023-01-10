@@ -20,4 +20,4 @@ repos:
     rev: v2.15.7
     hooks:
     -   id: pylint
-        additional_dependencies: ['matplotlib']
+        additional_dependencies: ['matplotlib', 'pandas', 'scikit-learn']
